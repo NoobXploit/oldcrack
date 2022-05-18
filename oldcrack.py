@@ -467,7 +467,7 @@ class Main:
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36",
 		])
 		sys.stdout.write(
-			"\r\r %s[Total] : %s/%s -> \033[0;92m [ OK:%s ]- \033[0;91m[CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[Total] : %s/%s >> \033[0;92m [ OK:%s ] - \033[0;91m[CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
