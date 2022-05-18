@@ -89,6 +89,7 @@ class Main:
 			print("\n\033[1;36m [+] TOTAL ID -> \033[1;34m%s"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\nMake Your Own Password")
+                                print("\033[1;90m══════════════════════════════════════════════════")
 				print("\n%sUse Comma(,) for Separator \nEXAMPLE : %s123456,1234567,123456789"%(Y,G))
 				listpass = input("\n%s•Type Your Password :%s "%(P,G))
 				if len(listpass)<=5:
